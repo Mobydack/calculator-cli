@@ -1,0 +1,3 @@
+{
+    "*.(json|js)": "npx prettier --fix"
+}
