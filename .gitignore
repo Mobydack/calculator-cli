@@ -15,5 +15,9 @@ Cargo.lock
 /target
 
 # NPM
-node_modules/
+/node_modules/
+
+## IDE
+/.idea/
+/.vscode/
 
