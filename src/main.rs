@@ -1,8 +1,8 @@
 use clap::Parser;
 
-mod parser;
 mod executor;
 mod operators;
+mod parser;
 
 #[derive(Parser)]
 #[command(name = "calc")]

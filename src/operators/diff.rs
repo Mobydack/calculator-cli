@@ -10,6 +10,6 @@ impl Operator for Diff {
     fn executor(arguments: Option<Vec<f64>>) -> f64 {
         let arguments = arguments.unwrap();
 
-        arguments.iter().copied().reduce(|acc, e| { acc - e }).unwrap()
+        arguments.iter().copied().reduce(|acc, e| acc - e).unwrap()
     }
 }
